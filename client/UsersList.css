@@ -1,7 +1,6 @@
 .Users {
     display: flex;
     flex: 1;
-    width: 25vw;
     justify-content: flex-start;
     flex-direction: column;
     border-right: 1px solid #ccc;
@@ -9,8 +8,10 @@
 
 .UsersOnline {
     padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
     text-align: center;
-    background: rgb(57, 223, 126);
+    background: rgb(222, 236, 222);
 }
 
 .UsersList {
@@ -21,6 +22,5 @@
 .UserItem {
     list-style: none;
     border-bottom: 1px solid #ccc;
-    padding: 20px;
-    margin: 0 0 0 20px;
+    padding: 30px;
 }

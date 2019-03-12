@@ -1,5 +1,8 @@
 body {
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(241, 240, 238);
 }
 
 .App {
@@ -7,7 +10,6 @@ body {
     flex-direction: column;
     flex: 1;
     height: 100vh;
-
 }
 
 .AppHeader {
@@ -15,31 +17,32 @@ body {
     flex-direction: row;
     align-items: center;
     border-bottom: 1px solid #ccc;
-
 }
 
 .AppTitle {
     display: flex;
     width: 25vw;
-    border-right: 1px solid #ccc;
     justify-content: center;
     box-sizing: border-box;
     padding: 20px;
+    font-family: 'Monofett', cursive;
+    font-size: 50px;
 }
 
 .AppRoom {
+    text-transform: uppercase;
     display: flex;
     width: 75vw;
     justify-content: center;
     box-sizing: border-box;
     padding: 20px;
-
 }
 
 .AppBody {
     display: flex;
     flex-direction: row;
     flex: 1;
+    margin: 0;
 }
 
 .MessageWrapper {
