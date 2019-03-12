@@ -1,5 +1,5 @@
 *Simple Chat App*
 
 > ExpressJS
-> Socket.ip
+> Socket.io
 > Webpack
